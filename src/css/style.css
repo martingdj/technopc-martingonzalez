@@ -3,7 +3,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-   
 }
 
 
@@ -58,4 +57,9 @@ ul{
     h2{color: rgba(231, 87, 3, 0.678);
 
     }
+}
+.carousel-inner{
+    width: 300px;
+    height: 300px;
+    
 }
