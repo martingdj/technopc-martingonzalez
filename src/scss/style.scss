@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: orangered;
+}
 h2{
     background-color: black;
     color: aliceblue;
@@ -20,27 +22,30 @@ h2{
 
 header{
     display: grid;
-    grid-template-rows: repeat(1fr,4);
-    grid-template-columns: repeat(1fr,4);
+    grid-template-rows: repeat(1fr,5);
+    grid-template-columns: repeat(1fr,5);
     width: 100%;
     height: 100%;
     background-color: rgba(241, 102, 22, 0.849);
     border: 2px black;
     border-style: solid;
+   
 }
-nav{
+ nav{
+   justify-content: center; 
     display: grid;
-    grid-template-columns: repeat(25%,4);
+    grid-template-columns: repeat(20%,5);
     border: 2px;
     border-style: solid;
+    
 }
 
 
 
-ul{
+.ul{
     display: grid;
-    grid-template-rows: repeat(1fr,4);
-    grid-template-columns: repeat(25%,4);
+    grid-template-rows: repeat(1fr,5);
+    grid-template-columns: repeat(20%,5);
     border: 2px;
     border-style: solid;
     grid-area: auto;
@@ -58,7 +63,7 @@ ul{
     }
 }
 .carousel-inner{
-    width: 300px;
-    height: 300px;
-    
+    width: 500px; ;
+    height: 500px;
+    position: center;
 }

@@ -20,26 +20,34 @@
 <body>
     <header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="./src/pages/productos.html">PRODUCTOS</a></li>
-                <ul>
-                    <li><a href="">PCGamer</a></li>
-                    <li><a href="">Mineria</a></li>
-                    <li><a href="">Notebooks</a></li>
-                    <li><a href="">Perifericos</a></li>
-
-                </ul>
-                <li><a href="./src/pages/nosotros.html">NOSOTROS</a></li>
-                <li><a href="./src/pages/contacto.html">CONTACTO</a></li>
-
-
-
-
-            </ul>
-
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            
+            <a class="navbar-brand" href="#">TechnoPC</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="src/pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">PCGamer</a></li>
+                    <li><a class="dropdown-item" href="#">Mineria</a></li>
+                    <li><a class="dropdown-item" href="#">Notebooks</a></li>
+    
+                  </ul>
+                  </li>
+                <li><a class="nav-link active" aria-current="page" href="src/pages/nosotros.html">Nosotros</a></li>
+                
+                <li><a class="nav-link active" aria-current="page" href="src/pages/contacto.html">Contacto</a></li>  
+              </ul>
+          </div>
+          
+      </nav>
     </header>
 
 
